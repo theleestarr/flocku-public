@@ -1,0 +1,318 @@
+{
+  "dataset_version": 4,
+  "total_raw_cameras": 86566,
+  "total_raw_before_clip": 86566,
+  "dropped_by_clip": 0,
+  "clip": null,
+  "total_alert_objects": 109129,
+  "states": {
+    "MN": {
+      "raw": 1381,
+      "buffered": 1381,
+      "alert_objects": 1316,
+      "bytes": 18439
+    },
+    "MT": {
+      "raw": 41,
+      "buffered": 41,
+      "alert_objects": 39,
+      "bytes": 561
+    },
+    "ND": {
+      "raw": 123,
+      "buffered": 123,
+      "alert_objects": 114,
+      "bytes": 1611
+    },
+    "HI": {
+      "raw": 32,
+      "buffered": 32,
+      "alert_objects": 32,
+      "bytes": 463
+    },
+    "ID": {
+      "raw": 372,
+      "buffered": 372,
+      "alert_objects": 343,
+      "bytes": 4817
+    },
+    "WA": {
+      "raw": 1679,
+      "buffered": 1679,
+      "alert_objects": 1551,
+      "bytes": 21729
+    },
+    "AZ": {
+      "raw": 1910,
+      "buffered": 1910,
+      "alert_objects": 1765,
+      "bytes": 24725
+    },
+    "CA": {
+      "raw": 13000,
+      "buffered": 13000,
+      "alert_objects": 11649,
+      "bytes": 163101
+    },
+    "CO": {
+      "raw": 2114,
+      "buffered": 2114,
+      "alert_objects": 2008,
+      "bytes": 28127
+    },
+    "NV": {
+      "raw": 508,
+      "buffered": 508,
+      "alert_objects": 476,
+      "bytes": 6679
+    },
+    "NM": {
+      "raw": 717,
+      "buffered": 717,
+      "alert_objects": 668,
+      "bytes": 9367
+    },
+    "OR": {
+      "raw": 498,
+      "buffered": 498,
+      "alert_objects": 479,
+      "bytes": 6721
+    },
+    "UT": {
+      "raw": 702,
+      "buffered": 702,
+      "alert_objects": 682,
+      "bytes": 9563
+    },
+    "WY": {
+      "raw": 88,
+      "buffered": 88,
+      "alert_objects": 86,
+      "bytes": 1219
+    },
+    "AR": {
+      "raw": 1378,
+      "buffered": 1378,
+      "alert_objects": 1316,
+      "bytes": 18439
+    },
+    "IA": {
+      "raw": 964,
+      "buffered": 964,
+      "alert_objects": 932,
+      "bytes": 13063
+    },
+    "KS": {
+      "raw": 1640,
+      "buffered": 1640,
+      "alert_objects": 1532,
+      "bytes": 21463
+    },
+    "MO": {
+      "raw": 2521,
+      "buffered": 2521,
+      "alert_objects": 2372,
+      "bytes": 33223
+    },
+    "NE": {
+      "raw": 349,
+      "buffered": 349,
+      "alert_objects": 346,
+      "bytes": 4859
+    },
+    "OK": {
+      "raw": 1384,
+      "buffered": 1384,
+      "alert_objects": 1361,
+      "bytes": 19069
+    },
+    "SD": {
+      "raw": 161,
+      "buffered": 161,
+      "alert_objects": 161,
+      "bytes": 2269
+    },
+    "LA": {
+      "raw": 1427,
+      "buffered": 1427,
+      "alert_objects": 1401,
+      "bytes": 19629
+    },
+    "TX": {
+      "raw": 12194,
+      "buffered": 12194,
+      "alert_objects": 11559,
+      "bytes": 161841
+    },
+    "CT": {
+      "raw": 1534,
+      "buffered": 1534,
+      "alert_objects": 1503,
+      "bytes": 21057
+    },
+    "MA": {
+      "raw": 1255,
+      "buffered": 1255,
+      "alert_objects": 1222,
+      "bytes": 17123
+    },
+    "NH": {
+      "raw": 258,
+      "buffered": 258,
+      "alert_objects": 252,
+      "bytes": 3543
+    },
+    "RI": {
+      "raw": 632,
+      "buffered": 632,
+      "alert_objects": 618,
+      "bytes": 8667
+    },
+    "VT": {
+      "raw": 94,
+      "buffered": 94,
+      "alert_objects": 92,
+      "bytes": 1303
+    },
+    "AL": {
+      "raw": 2543,
+      "buffered": 2543,
+      "alert_objects": 2458,
+      "bytes": 34427
+    },
+    "FL": {
+      "raw": 5741,
+      "buffered": 5741,
+      "alert_objects": 5410,
+      "bytes": 75755
+    },
+    "GA": {
+      "raw": 7203,
+      "buffered": 7203,
+      "alert_objects": 6874,
+      "bytes": 96251
+    },
+    "MS": {
+      "raw": 1251,
+      "buffered": 1251,
+      "alert_objects": 1199,
+      "bytes": 16801
+    },
+    "SC": {
+      "raw": 2671,
+      "buffered": 2671,
+      "alert_objects": 2597,
+      "bytes": 36373
+    },
+    "IL": {
+      "raw": 6210,
+      "buffered": 6210,
+      "alert_objects": 6042,
+      "bytes": 84603
+    },
+    "IN": {
+      "raw": 5351,
+      "buffered": 5351,
+      "alert_objects": 5167,
+      "bytes": 72353
+    },
+    "KY": {
+      "raw": 2839,
+      "buffered": 2839,
+      "alert_objects": 2721,
+      "bytes": 38109
+    },
+    "NC": {
+      "raw": 3839,
+      "buffered": 3839,
+      "alert_objects": 3714,
+      "bytes": 52011
+    },
+    "OH": {
+      "raw": 6006,
+      "buffered": 6006,
+      "alert_objects": 5731,
+      "bytes": 80249
+    },
+    "TN": {
+      "raw": 2675,
+      "buffered": 2675,
+      "alert_objects": 2557,
+      "bytes": 35813
+    },
+    "VA": {
+      "raw": 3197,
+      "buffered": 3197,
+      "alert_objects": 3074,
+      "bytes": 43051
+    },
+    "WI": {
+      "raw": 2952,
+      "buffered": 2952,
+      "alert_objects": 2857,
+      "bytes": 40013
+    },
+    "WV": {
+      "raw": 623,
+      "buffered": 623,
+      "alert_objects": 609,
+      "bytes": 8541
+    },
+    "DE": {
+      "raw": 581,
+      "buffered": 581,
+      "alert_objects": 557,
+      "bytes": 7813
+    },
+    "DC": {
+      "raw": 875,
+      "buffered": 875,
+      "alert_objects": 842,
+      "bytes": 11803
+    },
+    "MD": {
+      "raw": 1626,
+      "buffered": 1626,
+      "alert_objects": 1576,
+      "bytes": 22079
+    },
+    "NJ": {
+      "raw": 1746,
+      "buffered": 1746,
+      "alert_objects": 1679,
+      "bytes": 23521
+    },
+    "NY": {
+      "raw": 2199,
+      "buffered": 2199,
+      "alert_objects": 2161,
+      "bytes": 30269
+    },
+    "PA": {
+      "raw": 1940,
+      "buffered": 1940,
+      "alert_objects": 1860,
+      "bytes": 26055
+    },
+    "ME": {
+      "raw": 56,
+      "buffered": 56,
+      "alert_objects": 54,
+      "bytes": 771
+    },
+    "MI": {
+      "raw": 3633,
+      "buffered": 3633,
+      "alert_objects": 3515,
+      "bytes": 49225
+    },
+    "AK": {
+      "raw": 0,
+      "buffered": 0,
+      "alert_objects": 0,
+      "bytes": 15
+    }
+  },
+  "index_bytes": 1330,
+  "total_output_bytes": 1529901
+}

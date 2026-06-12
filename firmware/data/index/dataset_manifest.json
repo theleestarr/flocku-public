@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "dataset_version": 4,
+  "built_at": "2026-06-12T23:42:02Z",
+  "states": {
+    "AK": {
+      "records": 0,
+      "bytes": 15,
+      "dataset_version": 4,
+      "sha256": "f8745f48d09409e768076dddc9ea3b970651141786d90f169963b3e424068643"
+    },
+    "AL": {
+      "records": 2458,
+      "bytes": 34427,
+      "dataset_version": 4,
+      "sha256": "6222c4e00a84b162d85edf9b9659213dccd8c7677fb98aa597872ebb9d2c3d02"
+    },
+    "AR": {
+      "records": 1316,
+      "bytes": 18439,
+      "dataset_version": 4,
+      "sha256": "fe0abc4e53f0f79bba8305b80cbb5e7d4a3823670540599588ae67aec2081c57"
+    },
+    "AZ": {
+      "records": 1765,
+      "bytes": 24725,
+      "dataset_version": 4,
+      "sha256": "20035f6242d0152e541fb3f865c9014ca4a53b15b8aa85a2c29e714e7e766384"
+    },
+    "CA": {
+      "records": 11649,
+      "bytes": 163101,
+      "dataset_version": 4,
+      "sha256": "048a3891bf466fca8952baa10c1cfaf9c40c63b6593a1ba2e891d2ff03243ec2"
+    },
+    "CO": {
+      "records": 2008,
+      "bytes": 28127,
+      "dataset_version": 4,
+      "sha256": "673791dda671b9a0b95596b1b0d56350cc3a42599ecc32407740c97a26844107"
+    },
+    "CT": {
+      "records": 1503,
+      "bytes": 21057,
+      "dataset_version": 4,
+      "sha256": "dbfc238bb84becc71a01db7c41f141c01a733e8a38a6d275bad763d2d0b84170"
+    },
+    "DC": {
+      "records": 842,
+      "bytes": 11803,
+      "dataset_version": 4,
+      "sha256": "ae97180d9b28bdf3bde1b31622428ab2c2b33dcb754eb346756bbd112caff856"
+    },
+    "DE": {
+      "records": 557,
+      "bytes": 7813,
+      "dataset_version": 4,
+      "sha256": "25bc9ebbf882dc030527ca85eac1b12a0b70bd76431e5e32280a9524da525f19"
+    },
+    "FL": {
+      "records": 5410,
+      "bytes": 75755,
+      "dataset_version": 4,
+      "sha256": "7b310b98397c32e02486b4781018dc2e795c9ff8e3ce7a19ef9fd0961015f933"
+    },
+    "GA": {
+      "records": 6874,
+      "bytes": 96251,
+      "dataset_version": 4,
+      "sha256": "1c31fb53305545fd3040d2a7fe6aecb789975b1bb39201c8949f00c9b523f1d7"
+    },
+    "HI": {
+      "records": 32,
+      "bytes": 463,
+      "dataset_version": 4,
+      "sha256": "6f4c72988d00b96816aeedb526d5d793e99d93c755ad302db1a9c5e34b49fd3f"
+    },
+    "IA": {
+      "records": 932,
+      "bytes": 13063,
+      "dataset_version": 4,
+      "sha256": "cdd54880f789fa748a87546c8cbbc64a7adc629203823ae2f88d23580655dcf9"
+    },
+    "ID": {
+      "records": 343,
+      "bytes": 4817,
+      "dataset_version": 4,
+      "sha256": "41113ff1d30da73047f19bfc81796134791308bb400b7408d7accd16295b08a7"
+    },
+    "IL": {
+      "records": 6042,
+      "bytes": 84603,
+      "dataset_version": 4,
+      "sha256": "bee739e36e0e593f4e07ec5688ab6ccfcb6c90133dfb7d010b0f70ed034a4866"
+    },
+    "IN": {
+      "records": 5167,
+      "bytes": 72353,
+      "dataset_version": 4,
+      "sha256": "31df8dc9c70bb36e30c646dcc93fa8e52f86e74a58b27e1d0abb5cc42649e8c9"
+    },
+    "KS": {
+      "records": 1532,
+      "bytes": 21463,
+      "dataset_version": 4,
+      "sha256": "923061fb22b6dc91ad2bd557eef57333c25003867b88245bc107133068ef8e19"
+    },
+    "KY": {
+      "records": 2721,
+      "bytes": 38109,
+      "dataset_version": 4,
+      "sha256": "e8a7d4b7e05d6e9198129d35e317880617e8590e6e1eba8c31fc8533ee333667"
+    },
+    "LA": {
+      "records": 1401,
+      "bytes": 19629,
+      "dataset_version": 4,
+      "sha256": "0cdf9f5294d9ad8ff8c2967eee2da93b7926eae0154fc95be0883e08e9922cb1"
+    },
+    "MA": {
+      "records": 1222,
+      "bytes": 17123,
+      "dataset_version": 4,
+      "sha256": "5cabeb425e6e63da65da47e6eafda4869a59a55ab57ef0daa583ae6e12d1f267"
+    },
+    "MD": {
+      "records": 1576,
+      "bytes": 22079,
+      "dataset_version": 4,
+      "sha256": "a6e844d92b3b1b5c32874598d5f2ba0f3dbef44ee33529b01cafc097cc7e031c"
+    },
+    "ME": {
+      "records": 54,
+      "bytes": 771,
+      "dataset_version": 4,
+      "sha256": "da94b5e84b6a5b15890fdcb19b7bf23fa8f1769fe3dbae361fb3709bebdd0fff"
+    },
+    "MI": {
+      "records": 3515,
+      "bytes": 49225,
+      "dataset_version": 4,
+      "sha256": "c3a26127bc7676b7802bdc432901b1cabc6653d6ac6eb26b7d4b638a77b31635"
+    },
+    "MN": {
+      "records": 1316,
+      "bytes": 18439,
+      "dataset_version": 4,
+      "sha256": "82f8ed53c283279193137384cde29a98bde32559164209328e63ee1dfdb2eba8"
+    },
+    "MO": {
+      "records": 2372,
+      "bytes": 33223,
+      "dataset_version": 4,
+      "sha256": "f777b17b3bb213bc3a7754b33d564dfe69a0e09870eb8dc60b470fc94548baad"
+    },
+    "MS": {
+      "records": 1199,
+      "bytes": 16801,
+      "dataset_version": 4,
+      "sha256": "ee6a087e777831ee1c034b0e0e54752708368a4435c88f0760efbadeb6f7fb23"
+    },
+    "MT": {
+      "records": 39,
+      "bytes": 561,
+      "dataset_version": 4,
+      "sha256": "f3af251cee98f53d181f9b27dddec4107605a7e8f869a547de70328a4a1cbe05"
+    },
+    "NC": {
+      "records": 3714,
+      "bytes": 52011,
+      "dataset_version": 4,
+      "sha256": "a293f16c088829d34e0ee195c07b70b7f3173130ff60536b566ad00291ad929f"
+    },
+    "ND": {
+      "records": 114,
+      "bytes": 1611,
+      "dataset_version": 4,
+      "sha256": "49b0c78a5f27a3f3e01945603c121737aef297c718b0ca4ae826f84f43493883"
+    },
+    "NE": {
+      "records": 346,
+      "bytes": 4859,
+      "dataset_version": 4,
+      "sha256": "e36edcd43f690106bb5e00affc174815473e00c815cbf3ebfb1de6a980b2f4b2"
+    },
+    "NH": {
+      "records": 252,
+      "bytes": 3543,
+      "dataset_version": 4,
+      "sha256": "ee9bca2326b9ef57b48604846f0ef14f8a24bd554349030fada145a10e17c270"
+    },
+    "NJ": {
+      "records": 1679,
+      "bytes": 23521,
+      "dataset_version": 4,
+      "sha256": "69e5ae09efdfb714bf36510b30346fdf0ad8d12fcde2b74e8c41bf95ffbfc96b"
+    },
+    "NM": {
+      "records": 668,
+      "bytes": 9367,
+      "dataset_version": 4,
+      "sha256": "fc1e7046a1dc9d6e371c417023b149ec75b3f8d66fdc3dc72b7c5a5dd760a002"
+    },
+    "NV": {
+      "records": 476,
+      "bytes": 6679,
+      "dataset_version": 4,
+      "sha256": "6d837c78d44d1e3eb15be5b2f5b493f2997d442595282bee12bb38451c8819ab"
+    },
+    "NY": {
+      "records": 2161,
+      "bytes": 30269,
+      "dataset_version": 4,
+      "sha256": "11d2885b5e9e09c651a5c6f4f3907d11d86057a9efde70ff86d33ddf9335d645"
+    },
+    "OH": {
+      "records": 5731,
+      "bytes": 80249,
+      "dataset_version": 4,
+      "sha256": "9a6c493c19ed0be8a050b3f8858e7ca614998503fd24665dae049a861daad65e"
+    },
+    "OK": {
+      "records": 1361,
+      "bytes": 19069,
+      "dataset_version": 4,
+      "sha256": "6d56414b9a58393720852a545bce3f7efc676578d0780c7ad806eae63b7a39fe"
+    },
+    "OR": {
+      "records": 479,
+      "bytes": 6721,
+      "dataset_version": 4,
+      "sha256": "f2dfbba7aefcc3c4420039dc59b6f89b3d35c470055555725021e77cfba46064"
+    },
+    "PA": {
+      "records": 1860,
+      "bytes": 26055,
+      "dataset_version": 4,
+      "sha256": "b7a59bc7c5d73dbdf8b8fdef619b72d9b52be778e4148155b4842a608294fdb8"
+    },
+    "RI": {
+      "records": 618,
+      "bytes": 8667,
+      "dataset_version": 4,
+      "sha256": "3a9cb4d18e0d592efeb3ce576938dc3f6ce95d253a0da0de0997051a7205486b"
+    },
+    "SC": {
+      "records": 2597,
+      "bytes": 36373,
+      "dataset_version": 4,
+      "sha256": "bd63681db70709b50ce71c919ecf1c26a0c2c4083176ffdb02b7452a6c438d02"
+    },
+    "SD": {
+      "records": 161,
+      "bytes": 2269,
+      "dataset_version": 4,
+      "sha256": "8f8149d33517f8c4506d268f01649e01c8b3c7682e6aec7f99b0e9a1309ca596"
+    },
+    "TN": {
+      "records": 2557,
+      "bytes": 35813,
+      "dataset_version": 4,
+      "sha256": "7f97bc16c09afda253d005aa9233f12484406c98c1706d51f5cae97c2cb8e26e"
+    },
+    "TX": {
+      "records": 11559,
+      "bytes": 161841,
+      "dataset_version": 4,
+      "sha256": "70c5a3f9da54d3ab461a3f0858afd99f9e3f38188e289300d526afcdb76479ba"
+    },
+    "UT": {
+      "records": 682,
+      "bytes": 9563,
+      "dataset_version": 4,
+      "sha256": "036c65b8d7bf808d11cc0c83e44e8a5e2b3f9267a7e47b07f3efd72de390065d"
+    },
+    "VA": {
+      "records": 3074,
+      "bytes": 43051,
+      "dataset_version": 4,
+      "sha256": "77130802b93de6bbe6e695ed52a0c22a2a33f2d3fc612661a873ad1dd86b20a6"
+    },
+    "VT": {
+      "records": 92,
+      "bytes": 1303,
+      "dataset_version": 4,
+      "sha256": "3d42f79aad2ad5604bfeded4dca4f73ea38c2e98ba27a795afb22e85ed8fd4ea"
+    },
+    "WA": {
+      "records": 1551,
+      "bytes": 21729,
+      "dataset_version": 4,
+      "sha256": "9c643a7c80ab72c4342a336582015ca2a5e2f6339f1e424bb0f0e01ded9d1053"
+    },
+    "WI": {
+      "records": 2857,
+      "bytes": 40013,
+      "dataset_version": 4,
+      "sha256": "86f8acaf4a5dde840c9f3b40f558cf86d0a44bdcfe8b10f2ed992985daf63fa8"
+    },
+    "WV": {
+      "records": 609,
+      "bytes": 8541,
+      "dataset_version": 4,
+      "sha256": "6d6939141d94c48bd0b4fce2a0726c8e6386f2b07578065ed5f44a595dd3842a"
+    },
+    "WY": {
+      "records": 86,
+      "bytes": 1219,
+      "dataset_version": 4,
+      "sha256": "23a7b0fd174fc776a31b0f47dbf10af2675b1c20becda50c72c59a5ce9e71e26"
+    }
+  },
+  "source": "tools/data/us_flock_cameras.geojson",
+  "total_raw_cameras": 86566,
+  "total_alert_objects": 109129
+}

@@ -1,0 +1,23 @@
+.pio/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+compile_commands.json
+.clangd/
+.pioenvs/
+.piolibdeps/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+*.swp
+.idea/
+.vscode/
+build/
+dist/
+node_modules/
+
+# Regenerate from DeFlock CDN (see tools/README.md)
+tools/data/us_flock_cameras.geojson

@@ -1,0 +1,7 @@
+# 8 MB flash — LilyGO TTGO T-Beam (typical). LittleFS smaller than Heltec 16 MB build.
+# Full nationwide LittleFS from Heltec may not fit; subset states or shrink dataset if uploadfs fails.
+# Name,     Type, SubType, Offset,   Size,     Flags
+nvs,        data, nvs,      0x9000,   0x6000,
+phy_init,   data, phy,      0xf000,   0x1000,
+factory,    app,  factory,  0x10000,  0x200000,
+littlefs,   data, spiffs,   0x210000, 0x5F0000,
