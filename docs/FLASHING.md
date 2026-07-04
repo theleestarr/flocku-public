@@ -130,6 +130,31 @@ Camera-only repo updates → **`uploadfs` only** (previous section).
 | Wrong state near a border | Reflash **`index/states.bin`** from a current build (centroid tie-break needs v2 format) |
 | `uploadfs` fails / timeout | Different USB port/cable; set `--upload-port` |
 | Alerts stale after pull | You ran `upload` only — camera data lives on LittleFS; run **`uploadfs`** |
+| **Persistent** "NO DATA FILE / `cams/{ST}.bin` missing" for **every** state, unchanged after re-running `uploadfs` | Partition table at `0x8000` is missing the `littlefs` label — see **[Recovery: partition-table / label mismatch](#recovery-partition-table--label-mismatch)** below |
+
+### Recovery: partition-table / label mismatch
+
+If **every** state reads "missing" right after GPS lock — and re-running `uploadfs` changes nothing — the camera data is almost certainly intact, but the **partition table at `0x8000`** does not define the `littlefs`-labeled partition the firmware mounts by name (`camera_store.cpp` → `LittleFS.begin(false, "/littlefs", 10, "littlefs")`).
+
+This can happen on a unit that was provisioned or previously flashed with a **different partition table** (e.g. a stock 8 MB layout): the app and the LittleFS image get written at the offsets in `partitions_tbeam_8mb.csv` (`0x10000` and `0x210000`), but the table at `0x8000` never got the `littlefs` label. **Re-running `uploadfs` cannot fix this** — it rewrites the filesystem at `0x210000` and never touches the `0x8000` table.
+
+Either fix works:
+
+**A. One-time full firmware flash** — rewrites the `0x8000` table from this repo's CSV, leaves your camera data in place:
+
+```bash
+cd firmware
+pio run -e heltec_wireless_tracker -t upload
+```
+
+**B. Write only the partition table** — one 4 KB sector; firmware and camera data untouched. Build `partitions.bin` from `partitions_tbeam_8mb.csv`, then:
+
+```bash
+esptool.py --chip esp32s3 --port /dev/ttyACM0 --baud 460800 \
+  write_flash 0x8000 partitions.bin
+```
+
+Use your own port (`pio device list`); `/dev/ttyACM0` is just an example. Power-cycle after either fix and the "missing" screen should clear.
 
 ---
 
